@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Play&family=Ubuntu:wght@300&family=Work+Sans:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.brown{
+    background-color: #2B2922;
+    font-family: Montserrat,sans-serif;
+    color: white;
+}
+.navbar{
+    padding: 30px;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo
+{
+    padding: 10px;
+    width:40%;
+    margin-left: 80px;
+}
+.list{
+    margin-left: 100px;
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    color: white;
+    font-weight: 500;
+}
+button{
+    background-color: transparent;
+    font-size: 17px;
+    color: #928334;
+    border: 2px solid #928334;
+    padding: 10px 20px;
+    margin-left: 30px;
+    margin-top: -10px;
+    border-radius: 10px;
+}
+
+.content{
+    display: flex;
+    padding: 50px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.content>h1{
+    font: bold;
+    width: 50%;
+    font-size: 60px;
+    font-weight: 700;
+    
+}
+.content>p{
+    width: 30%;
+    color: gray;
+    font-size: large;
+    line-height: 30px;
+}
+.image{
+    width: 100vw;
+    height: 90vh;
+    object-fit: cover;
+}
+.toggle{
+    float: right;
+    border-radius: 100px;
+    padding: 20px 30px;
+    margin-top: 20px;
+    font-size: 30px;
+    margin:20px
+}
+.toggle1:hover{
+    background-color: #928334;
+    color: white;
+}
